@@ -1,0 +1,30 @@
+# Visual Studio, Clion and Rider cache folders
+.vs/
+.idea/
+
+# Third Party folder
+ThirtParty/
+Tests/UnitTests/ThirdParty/
+
+# CMake folders
+out/
+CmakeFiles/
+CmakeCache.txt
+MakeFile
+
+# Build
+[Bb]uild/
+[Bb]uilds/
+[Ii]nstall/
+
+[Bb]in/
+
+# Temp
+[Tt]emp/
+[Tt]emps/
+[Tt]emporary/
+
+*.tmp
+
+# Shader bin
+*.spv
