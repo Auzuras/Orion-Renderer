@@ -1,0 +1,16 @@
+{
+  "node-version": "1.0",
+  "node-name": "Post process",
+  "node-pipeline": {
+    "pipeline-type": "Compute",
+    "pipeline-compute-shader": "PostProcess.cs"
+  },
+  "node-UAV": [
+    {
+      "node-output-name": "ColorBuffer",
+      "node-output-format": "R8_G8_B8_UNORM"
+    }
+  ],
+  "node-SRV": [
+  ]
+}

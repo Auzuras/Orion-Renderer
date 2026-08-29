@@ -1,0 +1,12 @@
+#ifndef ORION_RENDERER_RENDERING_CONTEXT_H
+#define ORION_RENDERER_RENDERING_CONTEXT_H
+
+namespace Orion
+{
+	class RenderingContext
+	{
+
+	};
+}
+
+#endif //ORION_RENDERER_RENDERING_CONTEXT_H

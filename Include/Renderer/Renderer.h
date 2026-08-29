@@ -1,11 +1,14 @@
 #ifndef ORION_RENDERER_RENDERER
 #define ORION_RENDERER_RENDERER
 
-class Renderer
+namespace Orion
 {
-public:
-	Renderer() = default;
-	~Renderer() = default;
-};
+	class Renderer
+	{
+	public:
+		Renderer() = default;
+		~Renderer() = default;
+	};
+}
 
 #endif // ORION_RENDERER_RENDERER

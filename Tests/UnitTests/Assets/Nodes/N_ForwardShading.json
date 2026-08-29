@@ -1,0 +1,33 @@
+{
+  "node-version": "1.0",
+  "node-name": "Forward Shading",
+  "node-pipeline": {
+    "pipeline-type": "Graphics",
+    "pipeline-vertex-shader": "Forward.vert",
+    "pipeline-pixel-shader": "Forward.frag"
+  },
+  "node-inputs": [
+    {
+      "node-output-name": "AlbedoMap",
+      "node-output-format": "R8_G8_B8_UNORM"
+    },
+    {
+      "node-output-name": "NormalMap",
+      "node-output-format": "R8_G8_B8_UNORM"
+    },
+    {
+      "node-output-name": "RMMap",
+      "node-output-format": "R8_G8_UNORM"
+    }
+  ],
+  "node-outputs": [
+    {
+      "node-output-name": "ColorBuffer",
+      "node-output-format": "R8_G8_B8_UNORM"
+    },
+    {
+      "node-output-name": "DepthBuffer",
+      "node-output-format": "D32_S8"
+    }
+  ]
+}
