@@ -5,7 +5,6 @@ namespace Orion
 {
 	class RenderingContext
 	{
-
 	};
 }
 

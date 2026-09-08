@@ -1,9 +1,0 @@
-{
-  "graph-version": "1.0",
-  "graph-name": "Forward Renderer",
-  "graph-implementation": [
-    "N_DirectionalShadows.json",
-    "N_ForwardShading.json",
-    "N_PostProcess.json"
-  ]
-}

@@ -5,7 +5,9 @@ namespace Orion
 {
 	class RenderNode
 	{
+	public:
 
+		void Execute(const NodeContext& _context);
 	};
 }
 
